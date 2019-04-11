@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C0725450_Assignment4
+namespace C0728853_Assignment4
 {
     class Program
     {
@@ -40,23 +40,7 @@ namespace C0725450_Assignment4
             }
         }
 
-        public int FindNumberOfBlankSpaces(string line)
-        {
-            int countletters = 0;
-            int countSpaces = 0;
-
-            foreach (char c in line)
-            {
-                if (char.IsLetter(c))
-                {
-                    countletters++;
-                }
-                if (char.IsWhiteSpace(c))
-                {
-                    countSpaces++;
-                }
-                return countSpaces;
-            }
+       
         }
     }
 }
