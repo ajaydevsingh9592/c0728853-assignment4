@@ -10,6 +10,7 @@ namespace c0728853_assignment4
     {
         static void Main(string[] args)
         {
+            ArrayList Beowulf;
         }
     }
 }
